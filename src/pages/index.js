@@ -33,14 +33,16 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/portafolio" className="link primary"></Link>
                         </article>
-                        {/*<article style={{backgroundImage: `url(${pic02})`}}>
+                        <article>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Curso Introducción a React</h3>
+                                <p>Obten acceso a mi nuevo curso "Introducción a React"</p>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/oMFRSVX4d4Q?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
+                                <a href="https://www.udemy.com/introduccion-a-react/?couponCode=PERSONAL_SITE" target="_blank">Adquiérelo en Udemy con un descuento especial. Solo $9.99</a>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        {/*<article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Magna</h3>
                                 <p>Lorem etiam nullam</p>
