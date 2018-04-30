@@ -28,10 +28,10 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${srl})`}}>
                             <header className="major">
-                                <h3>SRL</h3>
-                                <p>Optmización de rutas para Senaven</p>
+                                <h3>Potafolio</h3>
+                                <p>Algunos ejemplos de proyectos desarrollados</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/portafolio" className="link primary"></Link>
                         </article>
                         {/*<article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
@@ -72,11 +72,11 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Estoy amueblando esta casa, mantente cerca...</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>Por el momento, no tengo mucha información qué ofrecerte sobre mi, pero pronto tendré varias cosas de las cuales quisiera compartir contigo. </p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/portafolio" className="button next">Visita mi página de proyectos</Link></li>
                             </ul>
                         </div>
                     </section>

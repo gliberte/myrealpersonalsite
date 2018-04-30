@@ -3,41 +3,44 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import BannerLanding from '../components/BannerLanding'
 
-import pic08 from '../assets/images/pic08.jpg'
+import srl from '../assets/images/srl.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
 const Landing = (props) => (
     <div>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
+            <title>SRL</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding />
+        <BannerLanding titulo="Portafolio" subtitulo="Algunos ejemplos de proyectos realizados"/>
 
         <div id="main">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Optimización, escencial para un despacho eficiente</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>Uno de los problemas más complejos a los que se enfrenta los negocios basados en operatividad de despacho, transporte y logística es 
+                    la Optimización de las rutas de despacho de sus flotas vehiculares.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
+                        <img src={srl} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>SRL</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            
+                            <p>En este proyecto integro los procesos internos de despacho de los pedidos diarios procesados por la empresa de distribucion Senaven a nivle nacional. </p>
+                            <p>Esta plataforma consiste de dos entornos: una plataforma web administrativa alojada en Heroku, y una app movil.</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/srl" className="button">Saber más</Link></li>
                             </ul>
                         </div>
                     </div>
