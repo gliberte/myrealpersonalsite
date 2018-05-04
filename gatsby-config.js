@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty by HTML5 UP",
+    title: "Luis Solano - Web Personal",
     author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Forty by HTML5 UP"
+    description: "Luis Solano"
   },
   pathPrefix: '/',
   plugins: [

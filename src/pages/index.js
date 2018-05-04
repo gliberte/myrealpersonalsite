@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 
@@ -9,6 +10,20 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+
+const IframeContainer = styled.div`
+    position:relative;
+    overflow:hidden;
+    padding-top:56.25%;
+`
+const Iframe = styled.iframe`
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border:0;
+`
 
 class HomeIndex extends React.Component {
     render() {
@@ -26,7 +41,7 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${srl})`}}>
+                        <article style={{ backgroundImage: `url(${srl})` }}>
                             <header className="major">
                                 <h3>Potafolio</h3>
                                 <p>Algunos ejemplos de proyectos desarrollados</p>
@@ -37,10 +52,13 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h3>Curso Introducción a React</h3>
                                 <p>Obten acceso a mi nuevo curso "Introducción a React"</p>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/oMFRSVX4d4Q?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
+                                <IframeContainer>
+                                    <Iframe src="https://www.youtube.com/embed/oMFRSVX4d4Q?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></Iframe>
+                                </IframeContainer>
+
                                 <a href="https://www.udemy.com/introduccion-a-react/?couponCode=PERSONAL_SITE" target="_blank">Adquiérelo en Udemy con un descuento especial. Solo $9.99</a>
                             </header>
-                            
+
                         </article>
                         {/*<article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">

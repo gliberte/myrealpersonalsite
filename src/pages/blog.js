@@ -2,11 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import Link from 'gatsby-link'
 
+const Container = styled.div`
+  margin:0 auto;
+  max-width:900px;
+`
 
 export default ({ data }) => {
   console.log(data);
   return (
-    <div>
+    <Container>
       <h1>
         Mi Blog Personal
       </h1>
@@ -22,7 +26,7 @@ export default ({ data }) => {
           
       )}
      
-    </div>
+    </Container>
   );
 };
 
