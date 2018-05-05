@@ -92,7 +92,7 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Estoy amueblando esta casa, mantente cerca...</h2>
+                                <h2>Estoy amueblando esta casa</h2>
                             </header>
                             <p>Por el momento, no tengo mucha información qué ofrecerte sobre mi, pero pronto tendré varias cosas de las cuales quisiera compartir contigo. </p>
                             <ul className="actions">

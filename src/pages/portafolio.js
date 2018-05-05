@@ -20,7 +20,7 @@ const Landing = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Optimización, escencial para un despacho eficiente</h2>
+                        <h2>Optimización</h2>
                     </header>
                     <p>Uno de los problemas más complejos a los que se enfrenta los negocios basados en operatividad de despacho, transporte y logística es 
                     la Optimización de las rutas de despacho de sus flotas vehiculares.</p>
